@@ -1,0 +1,15 @@
+.myButton{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center;
+    margin-block: auto; */
+}
+.myButton:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

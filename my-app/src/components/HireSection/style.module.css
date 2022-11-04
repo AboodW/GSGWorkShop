@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title h2{
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    display: flex;
+    position: relative;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    margin-left: 8.33%;
+    margin-top: 178.5px;
+}
+.descriptionBody{
+    padding: 49px 17.22% 102px 7.48%;
+    background-color: #7796FE;
+}
+.descriptionBody h3{
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.descriptionBody p{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.sideImage{
+    margin-left: 52.8%;
+    margin-top: 128.12px;
+    z-index: -1;
+    overflow-x: hidden;
+    position: absolute;
+}
+.sideImage img{
+    width: 62.87vw;
+}
