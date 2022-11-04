@@ -3,7 +3,7 @@ import BodyButton from '../Shared/BodyButton';
 import styles from './style.module.css'
 import { BsPencilFill, BsCheck2All } from 'react-icons/bs';
 import { MdPeople } from 'react-icons/md';
-import './Group145.png'
+import img1 from '../../assets/Group 145.png'
 
 function Hire(props) {
     const [isActive, setIsActive] = useState([true, false, false]);
@@ -61,7 +61,7 @@ function Hire(props) {
                     </div>
                 </div>
                 <div className={styles.sideImage}>
-                    <img src={require('./Group145.png')} alt='Group145'/>
+                    <img src={img1} alt='Group145'/>
                 </div>
             </div>
         </div>
