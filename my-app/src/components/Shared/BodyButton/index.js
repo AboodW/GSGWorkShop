@@ -4,8 +4,7 @@ import style from './style.module.css'
 function BodyButton(props) {
     const {color, isActive, onClick} = props;
     const activeStyles = {
-        borderBottom: '5px solid '+color,
-        // fontWeight: 'bold'
+        borderBottom: '5px solid '+color
     };
     
     return (

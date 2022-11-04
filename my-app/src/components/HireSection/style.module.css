@@ -26,6 +26,7 @@
     width: 52%;
     margin-left: 8.33%;
     margin-top: 178.5px;
+    position: absolute;
 }
 .descriptionBody{
     padding: 49px 17.22% 102px 7.48%;
@@ -44,8 +45,21 @@
     margin-top: 128.12px;
     z-index: -1;
     overflow-x: hidden;
-    position: absolute;
 }
 .sideImage img{
     width: 62.87vw;
+    height: auto;
+}
+.icon{  
+    border-radius: 200px;
+    align-self: center;
+    width: 3.26vw;
+    height: 3.26vw;
+    /* width: 47px; */
+    /* height: 47px; */
+    margin-right: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
 }

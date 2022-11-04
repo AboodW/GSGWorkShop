@@ -33,16 +33,22 @@ function Hire(props) {
             </div>
 
             <div className={styles.buttons}>
-                <BodyButton color='blue' isActive={isActive[0]} onClick={() => handleIsActive(0)}>
-                    <BsPencilFill />
+                <BodyButton color='#7796FE' isActive={isActive[0]} onClick={() => handleIsActive(0)}>
+                    <span className={styles.icon} style={{color: 'white',backgroundColor: '#7796FE'}}>
+                        <BsPencilFill size={15} />
+                    </span>
                     <p>Post</p>
                 </BodyButton>
-                <BodyButton color='blue' isActive={isActive[1]} onClick={() => handleIsActive(1)}>
+                <BodyButton color='#FD5E5E' isActive={isActive[1]} onClick={() => handleIsActive(1)}>
+                <span className={styles.icon} style={{color: 'black',backgroundColor: '#FD5E5E'}}>
                     <BsCheck2All />
+                </span>
                     <p>Applied</p>
                 </BodyButton>
-                <BodyButton color='blue' isActive={isActive[2]} onClick={() => handleIsActive(2)}>
+                <BodyButton color='#49A652' isActive={isActive[2]} onClick={() => handleIsActive(2)}>
+                <span className={styles.icon} style={{color: 'black',backgroundColor: '#49A652'}}>
                     <MdPeople />
+                </span>
                     <p>Assigned</p>
                 </BodyButton>
             </div>

@@ -2,12 +2,11 @@
     background-color: white;
     border: none;
     border-bottom: 1px solid gray;
-    font-size: 18px;
+    font-size: 22px;
     width: 19%;
     display: flex;
     justify-content: center;
-    /* text-align: center;
-    margin-block: auto; */
+    height: 80.5px;
 }
 .myButton:hover{
     font-weight: bold;
