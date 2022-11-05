@@ -10,9 +10,9 @@ const SignIn = () => {
       <SignInDesc />
       <div className={styles.backgroundSign}>
         <img src={SignData[1].img}></img>
-        <button className={styles.CloseSign}>
+        {/* <button className={styles.CloseSign}>
           <VscChromeClose />
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { Header, SignIn } from "./components";
 function App() {
   return (
     <div>
-      <Header />
+      <SignIn />
     </div>
   );
 }
