@@ -15,6 +15,8 @@ import rec4 from '../src/assets/RectangleCopy4.png'
 import Subscribe from "./components/Subscribe"
 import Footer from "./components/Footer"
 
+import { Header, SignIn } from "./components";
+
 function App() {
   const descriptionData1 = [
     {
@@ -41,6 +43,7 @@ function App() {
   ];
   return (
     <div>
+      <SignIn />
       <HeroSection title='Hire' img1={img1} img2={img2} rec1={rec1} rec2={rec2} descriptionData={descriptionData1} buttonColors={buttonColors[0]} />
       <HeroSection title='Work' img1={img3} img2={img4} rec1={rec3} rec2={rec4} descriptionData={descriptionData2} buttonColors={buttonColors[1]} />
       <Subscribe/>
