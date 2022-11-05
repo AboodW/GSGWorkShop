@@ -3,10 +3,6 @@ import BodyButton from '../Shared/BodyButton';
 import styles from './style.module.css'
 import { BsPencilFill, BsCheck2All } from 'react-icons/bs';
 import { MdPeople } from 'react-icons/md';
-// import img11 from '../../assets/Group 145.png'
-// import img22 from '../../assets/Group 172.png'
-// import rec11 from '../../assets/Rectangle Copy 2.png'
-// import rec22 from '../../assets/Rectangle-4.png'
 
 function HeroSection(props) {
     const {title, img1, img2, rec1, rec2, descriptionData, buttonColors} = props;
@@ -26,25 +22,7 @@ function HeroSection(props) {
             backgroundImage: `url(${rec2})`,
             backgroundSize: 'cover'
         }
-        ];
-    // const descriptionData = [
-    //     {
-    //         title: 'The Amazing Hubble (Post)',
-    //         description: 'Post: Filium morte multavit si sine dubio praeclara sunt, explicabo nemo enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob rem aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo ortum, tam crudelis fuisse, nihil. Et quidem rerum necessitatibus saepe eveniet'
-    //     },
-    //     {
-    //         title: 'The Amazing Hubble (Applied)',
-    //         description: 'Applied: Filium morte multavit si sine dubio praeclara sunt, explicabo nemo enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob rem aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo ortum, tam crudelis fuisse, nihil. Et quidem rerum necessitatibus saepe eveniet'
-    //     },
-    //     {
-    //         title: 'The Amazing Hubble (Assigned)',
-    //         description: 'Assigned: Filium morte multavit si sine dubio praeclara sunt, explicabo nemo enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob rem aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo ortum, tam crudelis fuisse, nihil. Et quidem rerum necessitatibus saepe eveniet'
-    //     },
-    //     {
-    //         title: 'What If They Let You Run The Hubble',
-    //         description: 'There is no denying the fact that the success of an advertisement lies mostly in the headline. The headline should attract the reader and make him read the rest of the advertisement. The headline should be simply catchy and various key points should be embedded when deciding on the headline for the ad. The headline should catch attention of the eye at the first glance. Words in headlines should act as tags for the advertisement. It should say it all about the content that follows. If a company is selling reasonably priced furniture, the headline of their advertisement should be ‘Durable furniture for less price’. This headline will attract the ook out for durable furniture as well as low cost furnitu'
-    //     }
-    // ];
+    ];
     return (
         <div className={styles.container}>
             <div className={styles.title}>
