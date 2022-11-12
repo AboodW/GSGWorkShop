@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HeroSection from './components/HeroSection';
+import HeroSection from './Components/HeroSection';
 
 import img1 from '../src/assets/Group 145.png'
 import img2 from '../src/assets/Group 172.png'
@@ -12,10 +12,10 @@ import img4 from '../src/assets/Group247.png'
 import rec3 from '../src/assets/RectangleCopy-1.png'
 import rec4 from '../src/assets/RectangleCopy4.png'
 
-import Subscribe from "./components/Subscribe"
-import Footer from "./components/Footer"
+import Subscribe from "./Components/Subscribe"
+import Footer from "./Components/Footer"
 
-import { Header, SignIn } from "./components";
+import { Header, SignIn } from "./Components";
 
 function App() {
   const descriptionData1 = [
